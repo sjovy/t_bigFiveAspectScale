@@ -127,8 +127,8 @@ Do NOT include:
 Write in flowing paragraphs that feel personalized and insightful."""
 
     response = client.messages.create(
-        model="claude-sonnet-4-20250514",
-        max_tokens=2000,
+        model="claude-haiku-3-5-20241022",
+        max_tokens=1500,
         messages=[{"role": "user", "content": prompt}]
     )
 

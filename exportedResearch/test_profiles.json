@@ -1,0 +1,118 @@
+{
+  "sara_phd": {
+    "description": "29F PhD student in ML/NLP",
+    "responses": [4,3,4,3,3,3,4,3,3,3,4,5,4,4,4,5,4,4,3,3,5,4,5,4,4,4,5,4,3,3,3,4,3,3,3,4,3,3,3,3,3,2,3,3,2,3,3,2,3,3,3,3,4,3,3,3,3,3,3,4,4,4,4,4,3,4,5,4,3,3,4,3,4,3,4,3,4,3,3,3,4,3,3,3,3,3,3,4,3,3,3,2,3,2,2,3,2,3,3,3],
+    "age": 29,
+    "gender": "female",
+    "occupation": "PhD student",
+    "education": "Graduate",
+    "expected_patterns": [
+      "High Intellect (84%) >> Openness (48%)",
+      "High Industriousness (87%) >> Low Orderliness (36%)",
+      "Low Enthusiasm (25%)"
+    ]
+  },
+  
+  "max_dysregulation": {
+    "description": "High risk: Combined internalizing/externalizing",
+    "responses": [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,5,5,5,5,5,5,1,1,5,5,5,5,5,5,5,5,1,1],
+    "age": 25,
+    "gender": null,
+    "expected_flags": ["max_dysregulation"]
+  },
+  
+  "psychosis_prone": {
+    "description": "Very High Openness + Very Low Intellect + High Volatility",
+    "responses": [5,5,5,5,5,5,5,5,1,1,1,1,1,1,1,1,1,1,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,5,5,5,5,5,5,1,1],
+    "age": 22,
+    "gender": null,
+    "expected_flags": ["psychosis_proneness"]
+  },
+  
+  "balanced_optimal": {
+    "description": "Role Model type: Low N, High everything else",
+    "responses": [4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,2,2,2,2,2,2,2,2,4,4,2,2,2,2,2,2,2,2,4,4],
+    "age": 45,
+    "gender": "female",
+    "expected_patterns": ["Optimal well-being profile"]
+  },
+  
+  "aggression_risk": {
+    "description": "High risk: Volatility + Low Compassion + Low Politeness",
+    "responses": [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,1,1,1,1,1,1,1,1,5,5,1,1,1,1,1,1,1,1,5,5,3,3,3,3,3,3,3,3,3,3,5,5,5,5,5,5,5,5,1,1],
+    "age": 32,
+    "gender": "male",
+    "expected_flags": ["aggression_risk"]
+  },
+  
+  "artist_openness_high": {
+    "description": "26F graphic designer, freelance artist",
+    "responses": [5,5,4,5,5,5,5,5,1,1,2,2,2,2,2,2,2,2,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,4,3,4,3,3,4,3,4,3,3,3,3,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4,4,3,3,3,4,4,3,3,4,3,4,3,3,3,3,3,3,3,3,3,3,3,3,4,3,3,4,3,4,3,4,2,2],
+    "age": 26,
+    "gender": "female",
+    "occupation": "Graphic designer",
+    "education": "Bachelor's in Fine Arts",
+    "expected_patterns": [
+      "High Openness (80%+) >> Low Intellect (20%-)",
+      "Arts creativity profile",
+      "Moderate Neuroticism"
+    ]
+  },
+  
+  "perfectionist_orderliness": {
+    "description": "34M accountant, anxiety issues",
+    "responses": [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,4,4,5,5,5,5,5,5,5,5,1,1,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4,4,3,3,5,5,4,5,4,5,5,4,2,2,3,3,3,3,3,3,3,3,3,3],
+    "age": 34,
+    "gender": "male",
+    "occupation": "Accountant",
+    "education": "Bachelor's in Accounting",
+    "expected_patterns": [
+      "High Orderliness (85%+) >> Low Industriousness (20%-)",
+      "Perfectionism paralysis flag",
+      "Elevated Withdrawal (anxiety-driven)"
+    ]
+  },
+  
+  "balanced_average": {
+    "description": "41F HR manager, stable life",
+    "responses": [3,4,3,4,3,3,4,3,3,3,3,4,4,3,3,4,3,3,3,3,4,4,4,3,3,4,4,3,3,3,3,4,4,3,4,4,3,4,3,3,3,4,3,3,3,3,4,4,3,3,3,4,3,3,3,4,3,3,3,3,3,4,4,4,4,4,4,3,3,3,3,4,4,3,3,4,3,4,3,3,3,3,3,3,3,3,3,3,3,3,2,3,3,3,3,3,3,3,3,3],
+    "age": 41,
+    "gender": "female",
+    "occupation": "HR Manager",
+    "education": "Master's in Business",
+    "expected_patterns": [
+      "No significant asymmetries",
+      "All aspects 40-60th percentile",
+      "Balanced, average profile"
+    ]
+  },
+  
+  "impulsive_low_c": {
+    "description": "23M college dropout, ADHD suspected",
+    "responses": [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,4,4,2,2,2,2,2,2,2,2,4,4,4,4,4,4,4,4,4,4,3,3,3,4,4,3,3,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,4,4,3,3,3,3,3,3,3,3,3,3,5,5,5,5,5,5,5,5,1,1],
+    "age": 23,
+    "gender": "male",
+    "occupation": "Retail worker",
+    "education": "Some college",
+    "expected_patterns": [
+      "Very Low Conscientiousness (both aspects <25%)",
+      "High Volatility (90%+)",
+      "Impulsive self-harm risk flag"
+    ]
+  },
+  
+  "warm_teacher": {
+    "description": "38F elementary school teacher",
+    "responses": [4,3,4,3,4,4,3,4,3,3,3,4,3,3,3,4,3,3,3,3,4,4,4,4,4,4,4,4,3,3,4,3,4,4,3,4,3,4,3,3,5,5,4,5,4,5,4,4,2,2,3,4,3,3,3,3,3,3,3,3,5,5,5,4,4,5,5,4,2,2,4,3,4,4,4,3,4,3,3,3,2,3,3,3,2,3,2,3,4,4,2,3,2,3,3,2,2,3,4,4],
+    "age": 38,
+    "gender": "female",
+    "occupation": "Elementary school teacher",
+    "education": "Bachelor's in Education",
+    "expected_patterns": [
+      "High Enthusiasm (85%+)",
+      "High Compassion (90%+)",
+      "Low Neuroticism (both aspects <35%)",
+      "Optimal well-being indicators"
+    ]
+  }
+}

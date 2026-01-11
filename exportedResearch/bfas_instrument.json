@@ -1,0 +1,754 @@
+{
+  "instrument": {
+    "name": "Big Five Aspect Scale (BFAS)",
+    "version": "Original DeYoung et al. (2007)",
+    "total_items": 100,
+    "language": "Swedish",
+    "scale": {
+      "type": "Likert",
+      "range": [1, 5],
+      "labels": {
+        "1": "Stämmer inte alls",
+        "2": "Stämmer dåligt",
+        "3": "Neutral/Osäker",
+        "4": "Stämmer ganska bra",
+        "5": "Stämmer mycket bra"
+      }
+    },
+    "instructions": "Besvara hur väl varje påstående beskriver dig som du generellt är, inte hur du vill vara eller hur du är i specifika situationer.",
+    "scoring": {
+      "reverse_coding_formula": "6 - response_value",
+      "aspect_score_range": [10, 50],
+      "dimension_score_range": [20, 100]
+    }
+  },
+  "dimensions": [
+    {
+      "id": "openness_intellect",
+      "name": "Openness/Intellect",
+      "aspects": ["openness", "intellect"]
+    },
+    {
+      "id": "conscientiousness",
+      "name": "Conscientiousness",
+      "aspects": ["industriousness", "orderliness"]
+    },
+    {
+      "id": "extraversion",
+      "name": "Extraversion",
+      "aspects": ["enthusiasm", "assertiveness"]
+    },
+    {
+      "id": "agreeableness",
+      "name": "Agreeableness",
+      "aspects": ["compassion", "politeness"]
+    },
+    {
+      "id": "neuroticism",
+      "name": "Neuroticism",
+      "aspects": ["withdrawal", "volatility"]
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "text": "Jag älskar konst och skönhet i alla former.",
+      "aspect": "openness",
+      "dimension": "openness_intellect",
+      "reverse_coded": false
+    },
+    {
+      "id": 2,
+      "text": "Jag har en rik och levande fantasi.",
+      "aspect": "openness",
+      "dimension": "openness_intellect",
+      "reverse_coded": false
+    },
+    {
+      "id": 3,
+      "text": "Jag uppskattar poesi och litteratur.",
+      "aspect": "openness",
+      "dimension": "openness_intellect",
+      "reverse_coded": false
+    },
+    {
+      "id": 4,
+      "text": "Musik väcker starka känslor hos mig.",
+      "aspect": "openness",
+      "dimension": "openness_intellect",
+      "reverse_coded": false
+    },
+    {
+      "id": 5,
+      "text": "Jag tycker om att låta min fantasi flöda fritt.",
+      "aspect": "openness",
+      "dimension": "openness_intellect",
+      "reverse_coded": false
+    },
+    {
+      "id": 6,
+      "text": "Jag är djupt berörd av vacker arkitektur eller design.",
+      "aspect": "openness",
+      "dimension": "openness_intellect",
+      "reverse_coded": false
+    },
+    {
+      "id": 7,
+      "text": "Jag gillar att fördjupa mig i estetiska upplevelser.",
+      "aspect": "openness",
+      "dimension": "openness_intellect",
+      "reverse_coded": false
+    },
+    {
+      "id": 8,
+      "text": "Jag blir fascinerad av kreativa uttryck.",
+      "aspect": "openness",
+      "dimension": "openness_intellect",
+      "reverse_coded": false
+    },
+    {
+      "id": 9,
+      "text": "Jag tycker att konst är övervärderat.",
+      "aspect": "openness",
+      "dimension": "openness_intellect",
+      "reverse_coded": true
+    },
+    {
+      "id": 10,
+      "text": "Jag har lite intresse för abstrakta konstnärliga verk.",
+      "aspect": "openness",
+      "dimension": "openness_intellect",
+      "reverse_coded": true
+    },
+    {
+      "id": 11,
+      "text": "Jag är intresserad av filosofiska frågor.",
+      "aspect": "intellect",
+      "dimension": "openness_intellect",
+      "reverse_coded": false
+    },
+    {
+      "id": 12,
+      "text": "Jag gillar att lösa komplexa problem.",
+      "aspect": "intellect",
+      "dimension": "openness_intellect",
+      "reverse_coded": false
+    },
+    {
+      "id": 13,
+      "text": "Jag tycker om att lära mig nya teoretiska koncept.",
+      "aspect": "intellect",
+      "dimension": "openness_intellect",
+      "reverse_coded": false
+    },
+    {
+      "id": 14,
+      "text": "Jag är nyfiken på hur saker fungerar på djupet.",
+      "aspect": "intellect",
+      "dimension": "openness_intellect",
+      "reverse_coded": false
+    },
+    {
+      "id": 15,
+      "text": "Jag uppskattar intellektuella diskussioner.",
+      "aspect": "intellect",
+      "dimension": "openness_intellect",
+      "reverse_coded": false
+    },
+    {
+      "id": 16,
+      "text": "Jag gillar att utforska abstrakta idéer.",
+      "aspect": "intellect",
+      "dimension": "openness_intellect",
+      "reverse_coded": false
+    },
+    {
+      "id": 17,
+      "text": "Jag tycker om att analysera och resonera logiskt.",
+      "aspect": "intellect",
+      "dimension": "openness_intellect",
+      "reverse_coded": false
+    },
+    {
+      "id": 18,
+      "text": "Jag är intresserad av vetenskapliga upptäckter.",
+      "aspect": "intellect",
+      "dimension": "openness_intellect",
+      "reverse_coded": false
+    },
+    {
+      "id": 19,
+      "text": "Jag föredrar praktiska svar framför teoretiska förklaringar.",
+      "aspect": "intellect",
+      "dimension": "openness_intellect",
+      "reverse_coded": true
+    },
+    {
+      "id": 20,
+      "text": "Jag tycker att filosofiska diskussioner är tidsslöseri.",
+      "aspect": "intellect",
+      "dimension": "openness_intellect",
+      "reverse_coded": true
+    },
+    {
+      "id": 21,
+      "text": "Jag arbetar hårt för att uppnå mina mål.",
+      "aspect": "industriousness",
+      "dimension": "conscientiousness",
+      "reverse_coded": false
+    },
+    {
+      "id": 22,
+      "text": "Jag är extremt driven och ambitiös.",
+      "aspect": "industriousness",
+      "dimension": "conscientiousness",
+      "reverse_coded": false
+    },
+    {
+      "id": 23,
+      "text": "Jag slutför alltid det jag påbörjar.",
+      "aspect": "industriousness",
+      "dimension": "conscientiousness",
+      "reverse_coded": false
+    },
+    {
+      "id": 24,
+      "text": "Jag är disciplinerad i mitt arbete.",
+      "aspect": "industriousness",
+      "dimension": "conscientiousness",
+      "reverse_coded": false
+    },
+    {
+      "id": 25,
+      "text": "Jag sätter höga standarder för mig själv.",
+      "aspect": "industriousness",
+      "dimension": "conscientiousness",
+      "reverse_coded": false
+    },
+    {
+      "id": 26,
+      "text": "Jag är uthållig även när uppgifter är svåra.",
+      "aspect": "industriousness",
+      "dimension": "conscientiousness",
+      "reverse_coded": false
+    },
+    {
+      "id": 27,
+      "text": "Jag tar mina åtaganden på största allvar.",
+      "aspect": "industriousness",
+      "dimension": "conscientiousness",
+      "reverse_coded": false
+    },
+    {
+      "id": 28,
+      "text": "Jag är mycket produktiv.",
+      "aspect": "industriousness",
+      "dimension": "conscientiousness",
+      "reverse_coded": false
+    },
+    {
+      "id": 29,
+      "text": "Jag tenderar att ge upp när saker blir svåra.",
+      "aspect": "industriousness",
+      "dimension": "conscientiousness",
+      "reverse_coded": true
+    },
+    {
+      "id": 30,
+      "text": "Jag prokrastinerar ofta.",
+      "aspect": "industriousness",
+      "dimension": "conscientiousness",
+      "reverse_coded": true
+    },
+    {
+      "id": 31,
+      "text": "Jag håller alltid mitt hem och arbetsplats organiserat.",
+      "aspect": "orderliness",
+      "dimension": "conscientiousness",
+      "reverse_coded": false
+    },
+    {
+      "id": 32,
+      "text": "Jag gillar när allt har sin plats.",
+      "aspect": "orderliness",
+      "dimension": "conscientiousness",
+      "reverse_coded": false
+    },
+    {
+      "id": 33,
+      "text": "Jag planerar i detalj innan jag gör något.",
+      "aspect": "orderliness",
+      "dimension": "conscientiousness",
+      "reverse_coded": false
+    },
+    {
+      "id": 34,
+      "text": "Jag följer rutiner noggrant.",
+      "aspect": "orderliness",
+      "dimension": "conscientiousness",
+      "reverse_coded": false
+    },
+    {
+      "id": 35,
+      "text": "Jag är mycket noggrann med ordning och struktur.",
+      "aspect": "orderliness",
+      "dimension": "conscientiousness",
+      "reverse_coded": false
+    },
+    {
+      "id": 36,
+      "text": "Jag kan inte stå ut med oordning.",
+      "aspect": "orderliness",
+      "dimension": "conscientiousness",
+      "reverse_coded": false
+    },
+    {
+      "id": 37,
+      "text": "Jag föredrar att ha saker välorganiserade.",
+      "aspect": "orderliness",
+      "dimension": "conscientiousness",
+      "reverse_coded": false
+    },
+    {
+      "id": 38,
+      "text": "Jag gör detaljerade listor och scheman.",
+      "aspect": "orderliness",
+      "dimension": "conscientiousness",
+      "reverse_coded": false
+    },
+    {
+      "id": 39,
+      "text": "Mitt skrivbord är ofta rörigt.",
+      "aspect": "orderliness",
+      "dimension": "conscientiousness",
+      "reverse_coded": true
+    },
+    {
+      "id": 40,
+      "text": "Jag tycker att för mycket organisation är hämmande.",
+      "aspect": "orderliness",
+      "dimension": "conscientiousness",
+      "reverse_coded": true
+    },
+    {
+      "id": 41,
+      "text": "Jag är ofta full av energi och glädje.",
+      "aspect": "enthusiasm",
+      "dimension": "extraversion",
+      "reverse_coded": false
+    },
+    {
+      "id": 42,
+      "text": "Jag är mycket pratsam i sociala sammanhang.",
+      "aspect": "enthusiasm",
+      "dimension": "extraversion",
+      "reverse_coded": false
+    },
+    {
+      "id": 43,
+      "text": "Jag uttrycker mina positiva känslor öppet.",
+      "aspect": "enthusiasm",
+      "dimension": "extraversion",
+      "reverse_coded": false
+    },
+    {
+      "id": 44,
+      "text": "Jag trivs bäst när jag är omgiven av människor.",
+      "aspect": "enthusiasm",
+      "dimension": "extraversion",
+      "reverse_coded": false
+    },
+    {
+      "id": 45,
+      "text": "Jag är väldigt vänlig och varm mot andra.",
+      "aspect": "enthusiasm",
+      "dimension": "extraversion",
+      "reverse_coded": false
+    },
+    {
+      "id": 46,
+      "text": "Jag älskar att delta i sociala evenemang.",
+      "aspect": "enthusiasm",
+      "dimension": "extraversion",
+      "reverse_coded": false
+    },
+    {
+      "id": 47,
+      "text": "Jag visar entusiasm lätt.",
+      "aspect": "enthusiasm",
+      "dimension": "extraversion",
+      "reverse_coded": false
+    },
+    {
+      "id": 48,
+      "text": "Jag är utåtriktad och kontaktsökande.",
+      "aspect": "enthusiasm",
+      "dimension": "extraversion",
+      "reverse_coded": false
+    },
+    {
+      "id": 49,
+      "text": "Jag är ofta tyst i grupper.",
+      "aspect": "enthusiasm",
+      "dimension": "extraversion",
+      "reverse_coded": true
+    },
+    {
+      "id": 50,
+      "text": "Jag uttrycker sällan glädje öppet.",
+      "aspect": "enthusiasm",
+      "dimension": "extraversion",
+      "reverse_coded": true
+    },
+    {
+      "id": 51,
+      "text": "Jag tar lätt ledarrollen i grupper.",
+      "aspect": "assertiveness",
+      "dimension": "extraversion",
+      "reverse_coded": false
+    },
+    {
+      "id": 52,
+      "text": "Jag är självsäker när jag uttrycker mina åsikter.",
+      "aspect": "assertiveness",
+      "dimension": "extraversion",
+      "reverse_coded": false
+    },
+    {
+      "id": 53,
+      "text": "Jag dominerar ofta konversationer.",
+      "aspect": "assertiveness",
+      "dimension": "extraversion",
+      "reverse_coded": false
+    },
+    {
+      "id": 54,
+      "text": "Jag tar kommando i sociala situationer.",
+      "aspect": "assertiveness",
+      "dimension": "extraversion",
+      "reverse_coded": false
+    },
+    {
+      "id": 55,
+      "text": "Jag är inte rädd för att utmana andras idéer.",
+      "aspect": "assertiveness",
+      "dimension": "extraversion",
+      "reverse_coded": false
+    },
+    {
+      "id": 56,
+      "text": "Jag påverkar andra människor lätt.",
+      "aspect": "assertiveness",
+      "dimension": "extraversion",
+      "reverse_coded": false
+    },
+    {
+      "id": 57,
+      "text": "Jag är beslutsam och handlingskraftig.",
+      "aspect": "assertiveness",
+      "dimension": "extraversion",
+      "reverse_coded": false
+    },
+    {
+      "id": 58,
+      "text": "Jag är konkurrenslysten.",
+      "aspect": "assertiveness",
+      "dimension": "extraversion",
+      "reverse_coded": false
+    },
+    {
+      "id": 59,
+      "text": "Jag undviker att stå i centrum.",
+      "aspect": "assertiveness",
+      "dimension": "extraversion",
+      "reverse_coded": true
+    },
+    {
+      "id": 60,
+      "text": "Jag är mer en följare än en ledare.",
+      "aspect": "assertiveness",
+      "dimension": "extraversion",
+      "reverse_coded": true
+    },
+    {
+      "id": 61,
+      "text": "Jag känner djup empati för andra människors lidande.",
+      "aspect": "compassion",
+      "dimension": "agreeableness",
+      "reverse_coded": false
+    },
+    {
+      "id": 62,
+      "text": "Jag blir lätt rörd av andras problem.",
+      "aspect": "compassion",
+      "dimension": "agreeableness",
+      "reverse_coded": false
+    },
+    {
+      "id": 63,
+      "text": "Jag bryr mig genuint om andras välmående.",
+      "aspect": "compassion",
+      "dimension": "agreeableness",
+      "reverse_coded": false
+    },
+    {
+      "id": 64,
+      "text": "Jag hjälper spontant när någon är i nöd.",
+      "aspect": "compassion",
+      "dimension": "agreeableness",
+      "reverse_coded": false
+    },
+    {
+      "id": 65,
+      "text": "Jag är mycket omtänksam.",
+      "aspect": "compassion",
+      "dimension": "agreeableness",
+      "reverse_coded": false
+    },
+    {
+      "id": 66,
+      "text": "Jag känner stark medkänsla för sårbara människor.",
+      "aspect": "compassion",
+      "dimension": "agreeableness",
+      "reverse_coded": false
+    },
+    {
+      "id": 67,
+      "text": "Jag tar andras känslor på stort allvar.",
+      "aspect": "compassion",
+      "dimension": "agreeableness",
+      "reverse_coded": false
+    },
+    {
+      "id": 68,
+      "text": "Jag är varm och stödjande.",
+      "aspect": "compassion",
+      "dimension": "agreeableness",
+      "reverse_coded": false
+    },
+    {
+      "id": 69,
+      "text": "Jag påverkas sällan av andras känslomässiga tillstånd.",
+      "aspect": "compassion",
+      "dimension": "agreeableness",
+      "reverse_coded": true
+    },
+    {
+      "id": 70,
+      "text": "Jag tycker att människor är för känsliga.",
+      "aspect": "compassion",
+      "dimension": "agreeableness",
+      "reverse_coded": true
+    },
+    {
+      "id": 71,
+      "text": "Jag respekterar alltid auktoritet.",
+      "aspect": "politeness",
+      "dimension": "agreeableness",
+      "reverse_coded": false
+    },
+    {
+      "id": 72,
+      "text": "Jag undviker konfrontationer.",
+      "aspect": "politeness",
+      "dimension": "agreeableness",
+      "reverse_coded": false
+    },
+    {
+      "id": 73,
+      "text": "Jag är mycket artig och hövlig.",
+      "aspect": "politeness",
+      "dimension": "agreeableness",
+      "reverse_coded": false
+    },
+    {
+      "id": 74,
+      "text": "Jag följer regler och normer noggrant.",
+      "aspect": "politeness",
+      "dimension": "agreeableness",
+      "reverse_coded": false
+    },
+    {
+      "id": 75,
+      "text": "Jag håller med andra för att undvika konflikt.",
+      "aspect": "politeness",
+      "dimension": "agreeableness",
+      "reverse_coded": false
+    },
+    {
+      "id": 76,
+      "text": "Jag visar respekt även när jag inte håller med.",
+      "aspect": "politeness",
+      "dimension": "agreeableness",
+      "reverse_coded": false
+    },
+    {
+      "id": 77,
+      "text": "Jag är försiktig med att kritisera andra.",
+      "aspect": "politeness",
+      "dimension": "agreeableness",
+      "reverse_coded": false
+    },
+    {
+      "id": 78,
+      "text": "Jag anpassar mig efter gruppens förväntningar.",
+      "aspect": "politeness",
+      "dimension": "agreeableness",
+      "reverse_coded": false
+    },
+    {
+      "id": 79,
+      "text": "Jag ifrågasätter ofta auktoritet.",
+      "aspect": "politeness",
+      "dimension": "agreeableness",
+      "reverse_coded": true
+    },
+    {
+      "id": 80,
+      "text": "Jag säger rakt ut vad jag tycker, även om det skapar spänningar.",
+      "aspect": "politeness",
+      "dimension": "agreeableness",
+      "reverse_coded": true
+    },
+    {
+      "id": 81,
+      "text": "Jag känner mig ofta nedstämd utan anledning.",
+      "aspect": "withdrawal",
+      "dimension": "neuroticism",
+      "reverse_coded": false
+    },
+    {
+      "id": 82,
+      "text": "Jag är benägen att må dåligt.",
+      "aspect": "withdrawal",
+      "dimension": "neuroticism",
+      "reverse_coded": false
+    },
+    {
+      "id": 83,
+      "text": "Jag känner ofta social oro.",
+      "aspect": "withdrawal",
+      "dimension": "neuroticism",
+      "reverse_coded": false
+    },
+    {
+      "id": 84,
+      "text": "Jag undviker situationer där jag kan bli bedömd.",
+      "aspect": "withdrawal",
+      "dimension": "neuroticism",
+      "reverse_coded": false
+    },
+    {
+      "id": 85,
+      "text": "Jag oroar mig mycket för framtiden.",
+      "aspect": "withdrawal",
+      "dimension": "neuroticism",
+      "reverse_coded": false
+    },
+    {
+      "id": 86,
+      "text": "Jag tenderar att dra mig undan när jag känner mig överväldigad.",
+      "aspect": "withdrawal",
+      "dimension": "neuroticism",
+      "reverse_coded": false
+    },
+    {
+      "id": 87,
+      "text": "Jag har ofta känslor av hopplöshet.",
+      "aspect": "withdrawal",
+      "dimension": "neuroticism",
+      "reverse_coded": false
+    },
+    {
+      "id": 88,
+      "text": "Jag känner mig ofta ensam, även i sällskap.",
+      "aspect": "withdrawal",
+      "dimension": "neuroticism",
+      "reverse_coded": false
+    },
+    {
+      "id": 89,
+      "text": "Jag är generellt optimistisk om livet.",
+      "aspect": "withdrawal",
+      "dimension": "neuroticism",
+      "reverse_coded": true
+    },
+    {
+      "id": 90,
+      "text": "Jag trivs i sociala situationer utan oro.",
+      "aspect": "withdrawal",
+      "dimension": "neuroticism",
+      "reverse_coded": true
+    },
+    {
+      "id": 91,
+      "text": "Jag är lätt irriterad.",
+      "aspect": "volatility",
+      "dimension": "neuroticism",
+      "reverse_coded": false
+    },
+    {
+      "id": 92,
+      "text": "Mina humör skiftar snabbt.",
+      "aspect": "volatility",
+      "dimension": "neuroticism",
+      "reverse_coded": false
+    },
+    {
+      "id": 93,
+      "text": "Jag blir arg lätt.",
+      "aspect": "volatility",
+      "dimension": "neuroticism",
+      "reverse_coded": false
+    },
+    {
+      "id": 94,
+      "text": "Jag reagerar impulsivt när jag är upprÃ¶rd.",
+      "aspect": "volatility",
+      "dimension": "neuroticism",
+      "reverse_coded": false
+    },
+    {
+      "id": 95,
+      "text": "Jag har svårt att kontrollera mitt temperament.",
+      "aspect": "volatility",
+      "dimension": "neuroticism",
+      "reverse_coded": false
+    },
+    {
+      "id": 96,
+      "text": "Jag exploderar känslomässigt under stress.",
+      "aspect": "volatility",
+      "dimension": "neuroticism",
+      "reverse_coded": false
+    },
+    {
+      "id": 97,
+      "text": "Små saker kan få mig att tappa kontrollen.",
+      "aspect": "volatility",
+      "dimension": "neuroticism",
+      "reverse_coded": false
+    },
+    {
+      "id": 98,
+      "text": "Jag är känslig för kritik och reagerar starkt.",
+      "aspect": "volatility",
+      "dimension": "neuroticism",
+      "reverse_coded": false
+    },
+    {
+      "id": 99,
+      "text": "Jag är lugn och stabil även under press.",
+      "aspect": "volatility",
+      "dimension": "neuroticism",
+      "reverse_coded": true
+    },
+    {
+      "id": 100,
+      "text": "Jag blir sällan riktigt arg.",
+      "aspect": "volatility",
+      "dimension": "neuroticism",
+      "reverse_coded": true
+    }
+  ]
+}

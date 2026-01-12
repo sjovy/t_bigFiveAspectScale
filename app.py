@@ -134,12 +134,14 @@ IMPORTANT GUIDELINES:
 - Highlight the unique pattern of aspects, not just domain scores
 - Use the knowledge base for evidence-based interpretations
 - End with an empowering reflection
+- Be concise and direct (eliminate filler words and unnecessary elaboration)
 
 Do NOT include:
 - Rigid structure with headers for each dimension
 - Repetitive percentile listings
 - Generic personality descriptions
 - Medical advice
+- Verbose explanations or redundant phrases
 
 Write in flowing paragraphs that feel personalized and insightful."""
 

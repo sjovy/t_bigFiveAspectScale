@@ -178,11 +178,11 @@ def render_welcome():
         <strong>⚠️ Important Disclaimer</strong><br>
         This is an <strong>educational demonstration</strong> of AI and programming capabilities.
         It is NOT a clinical diagnostic tool or substitute for professional psychological evaluation.
-        For clinical concerns, always consult a licensed professional.
+        For clinical concerns, always consult a licensed professional. <strong>We do not keep any data that can be traced back to you.</strong>
         </div>
         """, unsafe_allow_html=True)
 
-        if st.button("Start Assessment (15-20 min)", type="primary", use_container_width=True):
+        if st.button("Start Anonymous Assessment (15-20 min)", type="primary", use_container_width=True):
             st.session_state.page = 'demographics'
             st.rerun()
 

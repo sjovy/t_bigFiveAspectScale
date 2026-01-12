@@ -64,7 +64,20 @@ pip install scipy
 
 ## Implementation Status
 
-Currently research/specification phase. Core scoring logic complete in `bfas_scoring.py`. UI (Streamlit/FastAPI/CLI) not yet implemented.
+**Complete & Live** - Streamlit web app fully functional and deployed on Streamlit Cloud.
+
+### Latest Session Enhancements (Jan 2026)
+- Added "About the Developer" modal with bio and Buy Me a Coffee button (welcome page footer)
+- Optimized interpretation quality: increased max_tokens (1500 → 2500), added conciseness directives
+- Removed slow UI elements ("Take Again" button) that triggered st.rerun()
+- Set app to production mode (DEV_MODE=0)
+- Added privacy assurance in disclaimer
+- Renamed button to "Start Anonymous Assessment"
+
+### Known Limitations
+- **Framework limitation:** Streamlit's `st.rerun()` causes noticeable latency on state changes
+- **Architectural note:** Streamlit is appropriate for this internal-tool use case but would struggle with 100+ concurrent users
+- See global CLAUDE.md for Technology Stack Assessment framework—use for future projects
 
 ## Language
 

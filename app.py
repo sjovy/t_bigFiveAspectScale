@@ -145,7 +145,7 @@ Write in flowing paragraphs that feel personalized and insightful."""
 
     response = client.messages.create(
         model="claude-haiku-4-5",
-        max_tokens=2000,
+        max_tokens=2500,
         messages=[{"role": "user", "content": prompt}]
     )
 

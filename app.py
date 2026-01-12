@@ -460,16 +460,7 @@ def render_results():
 
     # Actions
     st.markdown("---")
-    col1, col2, col3 = st.columns(3)
-
-    with col1:
-        if st.button("Take Again", use_container_width=True):
-            # Reset session
-            for key in ['responses', 'profile_summary', 'interpretation', 'age', 'gender']:
-                if key in st.session_state:
-                    del st.session_state[key]
-            st.session_state.page = 'welcome'
-            st.rerun()
+    col1, col2, col3 = st.columns([1, 2, 1])
 
     with col2:
         # Download results as JSON

@@ -97,7 +97,11 @@ def about_modal():
     st.markdown("---")
     col1, col2, col3 = st.columns([1, 1, 1])
     with col2:
-        st.link_button("Buy Me a Coffee", "https://www.buymeacoffee.com/thomas.sjovy", use_container_width=True)
+        st.markdown("""
+        <a href="https://www.buymeacoffee.com/thomas.sjovy" target="_blank">
+        <img src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 150px !important;" />
+        </a>
+        """, unsafe_allow_html=True)
 
 
 def generate_interpretation(profile_summary: dict, knowledge_base: str) -> str:

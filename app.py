@@ -87,23 +87,6 @@ def load_knowledge_base():
         return f.read()
 
 
-@st.dialog("About the Developer")
-def about_modal():
-    """Display About modal with developer bio and coffee link."""
-    st.markdown("""
-    63 years of age, residing in Sweden and currently unemployed. Somehow still very young at heart and love to stay ahead of the crowd regarding everything AI. Using AI for programming, with embedded AI capabilities inside the apps. 100% autodidact. Hopefully one of these apps will land me a job someday. Meanwhile, if you enjoy my work, please buy me a coffee to help me stay afloat.
-    """)
-
-    st.markdown("---")
-    col1, col2, col3 = st.columns([1, 1, 1])
-    with col2:
-        st.markdown("""
-        <a href="https://www.buymeacoffee.com/thomassjovy" target="_blank">
-        <img src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 150px !important;" />
-        </a>
-        """, unsafe_allow_html=True)
-
-
 def generate_interpretation(profile_summary: dict, knowledge_base: str) -> str:
     """Generate natural language interpretation using Claude."""
     client = Anthropic()
@@ -223,14 +206,9 @@ def render_welcome():
         st.markdown("---")
         st.markdown("""
         <div style="text-align: center; color: #999; font-size: 0.85em;">
-        Developed in partnership with Claude Code  |
+        Developed in partnership with Claude Code
         </div>
         """, unsafe_allow_html=True)
-
-        col1, col2, col3 = st.columns([1, 1, 1])
-        with col2:
-            if st.button("About the Developer", key="about_btn", use_container_width=True):
-                about_modal()
 
 
 def render_demographics():
